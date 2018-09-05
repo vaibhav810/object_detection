@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>页面找不到</title>
+    <style type="text/css">
+        body {
+            text-align: center;
+            background: #fff;
+            font-size: 12px;
+            color: #333;
+            font-family: "宋体";
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+            line-height: 24px;
+        }
+
+        .top_404 {
+            width: 960px;
+            margin: 0px auto;
+            padding-top: 30px;
+            padding-left: 15px;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .error404 {
+            border: 1px solid #ececec;
+            text-align: center;
+            width: 960px;
+            margin: 0px auto;
+        }
+
+            .error404 .error {
+                width: 400px;
+                margin: 50px auto;
+                height: 350px;
+              
+                text-align: left;
+                padding-left: 100px;
+            }
+
+                .error404 .error h2 {
+                    font-size: 16px;
+                    display: block;
+                    margin-bottom: 15px;
+                    padding-top: 150px;
+                }
+
+                .error404 .error label a {
+                    color: #0c55dc;
+                    text-decoration: underline;
+                }
+
+        .copyRight {
+            text-align: center;
+            margin-top: 15px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="top_404">
+        <h1><a href="/"><img src="/logo.png" /></a></h1>
+    </div>
+    <div class="error404">
+        <div class="error">            
+            <a href="/"><img src="/404.jpg" title="您正在搜索的页面可能已经删除、更名或暂时不可用" alt="404，很抱歉，无法找到该页！" /></a>
+        </div>
+    </div>
+    <div class="copyRight"></div>
+    <script language="javascript">
+        window.setTimeout('window.location="/"', 5000)
+    </script>
+
+</body>
+</html>
